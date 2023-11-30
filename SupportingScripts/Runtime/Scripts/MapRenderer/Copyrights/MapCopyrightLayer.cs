@@ -104,7 +104,7 @@ namespace Microsoft.Maps.Unity
             // Load the default font, if it hasn't already been loaded.
             if (_font == null)
             {
-                _font = Resources.GetBuiltinResource<Font>("Arial.ttf");
+                _font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
                 Debug.Assert(_font != null);
             }
 
